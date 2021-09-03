@@ -9,7 +9,7 @@ A website that shows my work and skills.
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://rahilrahimi.github.io/Portfolio/
 
 ## Contribution
 Made with ❤️ by [RAHIL.D]
