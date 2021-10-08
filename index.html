@@ -1,122 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UV-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <!-- Using FontAwesome -->
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js"
-    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <section>
-<!-- navigation -->
-<nav>
-    <!-- logo -->
-    <a herf="#" class="logo">Rahil Rahimi</a>
-    <!-- menu -->
-    <ul>
-        <li><a href="#" class="active">About Me</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact Me</a></li>
-        <li><a href="#">Resume</a></li>
-    </ul>
-    <!-- bars -->
-    <div class="toggle"></div>
-</nav>
-<!-- text -->
-<div class="text-container">
-  <p>Hello,</p>
-  <p>I'm RAHIL</p>
-  <p>I am a Web Develper <br>& Designer</p>
-  <button class="hire-btn">Hire me</button>
-  <button class="down-cv">Download CV</button> 
-</div>
-<!-- model -->
-    <img src="./assets/images/gb.jpg" class="model" alt="hands working">
+        <!-- navigation -->
+        <nav>
+            <!-- logo -->
+            <a herf="#" class="logo">Rahil Rahimi</a>
+            <!-- menu -->
+            <ul>
+                <li><a href="#about-link" class="active">About Me</a></li>
+                <li><a href="#work-link">Work</a></li>
+                <li><a href="#contact-link">Contact Me</a></li>
+                <li><a href="#Resume-link" onclick="myFunction()">Resume</a></li>
+            </ul>
+            <script>
+                function myFunction() {
+                  location.replace("./assets/images/gb.jpg")
+                }
+                </script>
+
+            <!-- bars -->
+            <div class="toggle"></div>
+        </nav>
+        <!-- text -->
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I'm RAHIL</p>
+            <p>I am a Web Develper <br>& Designer</p>
+            <!-- <button class="hire-btn">Hire me</button> -->
+            <!-- <button class="down-cv">Download CV</button> -->
+        </div>
+        <!-- model -->
+        <img src="./assets/images/gb.jpg" class="model" alt="hands working">
         </img>
     </section>
     <!-- about-section -->
-    <div class="about-container">
-       <!-- img -->
-       <img src="./assets/images/coo.jpg">
-       <!-- about-text -->
-       <div class="about-text">
-          <p>About Me</p>
-          <p>Developer & Designer</p>
-          <p>Hello, My name is Rahil Rahimi. I am a Web Developer and also a web Designer. If you have Project or if you want make a 
-               software for your business contact me. I will make it as soon as possible. You really like my work, if you don't I will change this until you like it,
-                 and give you satisfaction result.</p>
-          <p>Iam a Web Developer and also a Designer.If you have Project or if you want make a software for your business contact me.
-               I will make it as soon as possible.  </p>
-               <!-- button -->
-               <button>Hire Me</button>
-               <button>Download CV</button>
-       </div> 
+    <div id="about-link" class="about-container">
+        <!-- img -->
+        <img src="./assets/images/CaptureR.PNG">
+        <!-- about-text -->
+        <div class="about-text">
+            <p>About Me</p>
+            <p>Developer & Designer</p>
+            <p>Hello, My name is Rahil Rahimi. I am a Web Developer and also a web Designer. If you have Project or if
+                you want make a
+                software for your business contact me. I will make it as soon as possible. You really like my work, if
+                you don't I will change this until you like it,
+                and give you satisfaction result.</p>
+            <p>Iam a Web Developer and also a Designer.If you have Project or if you want make a software for your
+                business contact me.
+                I will make it as soon as possible. </p>
+            <!-- button -->
+            <!-- <button>Hire Me</button> -->
+            <button><a href="#contact-link">Contact Me</a></button>
+        </div>
     </div>
     <!-- work -->
-    <div class="work">
+    <div id="work-link" class="work">
         <!-- text -->
-        <div class="work-text">
-        <p>Work</p>
-        <p>Work Required</p>
-        <p> If you want make a software for your business contact me. I will make it as 
-            soon as possible. You really like my work, if you don't I will change this until you like it,
-              and give you satisfaction result. If you want make a software for your business contact me.</p>
-        </div>
+        <!-- <div class="work-text">
+            <p>Work</p>
+            <p>Work Required</p>
+            <p> If you want make a software for your business contact me. I will make it as
+                soon as possible. You really like my work, if you don't I will change this until you like it,
+                and give you satisfaction result. If you want make a software for your business contact me.</p>
+        </div> -->
         <!-- box -->
         <div class="box-container">
             <!-- 1 --------------->
             <div class="box-1">
                 <span>1</span>
-                <p class="heading">Web Design</p>
-                <p class="details">If you want make a software for your business contact me. I will make it as 
+                <p class="heading">work</p>
+                <p class="details">If you want make a software for your business contact me. I will make it as
                     soon as possible. You really like my work, if you don't I will change this until you like it,
-                      and give you satisfaction result. If you want make a software for your business contact me.</p>
-                <button>Read More</button>
+                    and give you satisfaction result.</p>
+                <a href="https://github.com/rahilrahimi" target="_blank"><button>Read More</button></a>
             </div>
             <!-- 2 --------------->
-            <div class="box-2">
+            <!-- <div class="box-2">
                 <span>2</span>
                 <p class="heading">Web Development</p>
-                <p class="details">If you want make a software for your business contact me. I will make it as 
+                <p class="details">If you want make a software for your business contact me. I will make it as
                     soon as possible. You really like my work, if you don't I will change this until you like it,
-                      and give you satisfaction result. If you want make a software for your business contact me.</p>
+                    and give you satisfaction result. If you want make a software for your business contact me.</p>
                 <button>Read More</button>
-            </div>
+            </div> -->
             <!-- 3 --------------->
-            <div class="box-3">
+            <!-- <div class="box-3">
                 <span>3</span>
                 <p class="heading">Security/SEO</p>
-                <p class="details">If you want make a software for your business contact me. I will make it as 
+                <p class="details">If you want make a software for your business contact me. I will make it as
                     soon as possible. You really like my work, if you don't I will change this until you like it,
-                      and give you satisfaction result. If you want make a software for your business contact me.</p>
+                    and give you satisfaction result. If you want make a software for your business contact me.</p>
                 <button>Read More</button>
-            </div>
+            </div> -->
         </div>
     </div>
+    <!--Resume section -->
+    <!-- <div id="Resume-link" class="Resume">
+        Resume
+        <img src="" alt="Resume">
+
+    </div> -->
+
+
     <!-- contact me------------->
-    <div class="contact-me">
+    <div id="contact-link" class="contact-me">
         <p>If You Have Any Project In Your Mind.</p>
-        <button>Contact Me</button>
+        <!-- <button>Contact Me</button> -->
+        <h2>Contact Me</h2>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <i class="fas fa-phone-square"></i> -->
+        <p><a id="call" href="tel:+4733378901">Call +47 333 78 901</a></p>
+
+        <!-- <i class="fas fa-at"> @gmail.com </i> -->
+        <p><a id="sendEmail" href="mailto:someone@example.com">Send email</a></p>
+
     </div>
     <!-- footer -->
     <footer>
-        <p>Going-To Internet</p>
-        <p> I will make it as soon as possible. You really like my work, if you don't I will change this until you like it,
-            and give you satisfaction result.</p>
-            <!-- social -->
-            <div class="social-icons">
+        <!-- <p>Contact Me</p> -->
+        <h5> I will make it as soon as possible. You really like my work, if you don't I will change this until you like
+            it,
+            and give you satisfaction result.</h5>
+        <!-- social -->
+        <div class="social-icons">
 
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-            <!-- copyright -->
-            <p class="copyright">Copyright by Going-To Internet</p>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <!-- copyright -->
+        <p class="copyright">Copyright by Going-To Internet</p>
     </footer>
     <!-- attached social bar -->
     <div class="a-social-b">
@@ -124,7 +151,8 @@
         <a href="#"><i class="fab fa-facebook"></i></a>
         <a href="#"><i class="fab fa-linkedin"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
     </div>
 </body>
+
 </html>
