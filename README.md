@@ -49,7 +49,7 @@ In contact section, by clicking on call you can make a call. Also by cliking on 
 https://rahilrahimi.github.io/Portfolio/
 
 # Mock-Up
-![web1](https://user-images.githubusercontent.com/87342751/136630216-f21f0686-a64e-4188-b2ba-aca85e90862c.png)
+![web](https://user-images.githubusercontent.com/87342751/136630679-d2a69992-39d1-4721-9ed0-7a79a632b17e.PNG)
 ![web2](https://user-images.githubusercontent.com/87342751/136629966-6935a905-7f84-43a4-a6b6-8aa4d3b11e76.PNG)
 ![web3](https://user-images.githubusercontent.com/87342751/136629995-28aadfee-8afd-4a21-9c25-609ca941d431.PNG)
 
