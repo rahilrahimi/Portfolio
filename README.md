@@ -36,15 +36,22 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 # User
 by cliking on any button in the Nav bar section, can access the section he/she want on the website.
+
 by cliking on social icon user can access to my linkedIn, Facebook, Instagram and youtube which tow places for them.I consider one attached social bar and in the footer section.
+
 In About Me section, Can see the last project that I have been worked on by cliking on the Recent Work button.
+
 In work section, can access to my Github and see all my repository by cliking on Read More.
+
 In contact section, by clicking on call you can make a call. Also by cliking on send email dirictly can send an email.
 
 # Deployed Application URL
 https://rahilrahimi.github.io/Portfolio/
 
 # Mock-Up
+![web](https://user-images.githubusercontent.com/87342751/136629925-f3f92b58-44a2-4082-8af4-01057579ceaa.PNG)
+![web2](https://user-images.githubusercontent.com/87342751/136629966-6935a905-7f84-43a4-a6b6-8aa4d3b11e76.PNG)
+![web3](https://user-images.githubusercontent.com/87342751/136629995-28aadfee-8afd-4a21-9c25-609ca941d431.PNG)
 
 
 ## Contribution
