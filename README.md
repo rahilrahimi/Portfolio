@@ -50,9 +50,7 @@ https://rahilrahimi.github.io/Portfolio/
 
 # Mock-Up
 ![web](https://user-images.githubusercontent.com/87342751/136630725-68f60d91-e885-4684-b49f-d9722fbd3028.PNG)
-![web2](https://user-images.githubusercontent.com/87342751/136629966-6935a905-7f84-43a4-a6b6-8aa4d3b11e76.PNG)
-![web3](https://user-images.githubusercontent.com/87342751/136629995-28aadfee-8afd-4a21-9c25-609ca941d431.PNG)
-
+ Demo link here: https://watch.screencastify.com/v/2pcrLBQANB6sGzVlVhEZ
 ## Contribution
 Made with ❤️ by [RAHIL.D]
 
